@@ -1,20 +1,13 @@
+
 header {
     background-color: black;
 }
 
-#button {
-    display: inline-block;
-    height: 60px;
-    background-color:teal;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 body {
-    background: pink;
+    background: #F5EBFF;
     color: black;
-    font-family: 'Fira Code';
+    font-family: 'Sulphur Point', 'Fira Code', sans-serif;
+    font-weight: 400;
     font-size: 25px;
     letter-spacing: 2px;
 }
@@ -37,7 +30,7 @@ body {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid white;
+    border: 1px solid #5A3E86;
     border-width: 2px;
     width: 290px;
     display: block;
@@ -48,7 +41,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #5A3E86;
     transition: color 1s;
 }
 
@@ -64,4 +57,12 @@ a:hover {
     margin-top: 3%;
     height: auto;
     max-width: 180px;
+}
+
+section {
+    display: block;
+    width: 500px;
+    border: red;
+    border-style: solid;
+    border-width: 5px;
 }
