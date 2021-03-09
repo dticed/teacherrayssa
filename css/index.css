@@ -14,8 +14,8 @@ header {
 body {
     background: pink;
     color: black;
-    font-family: 'Fira Code', sans-serif;
-    font-size: 15px;
+    font-family: 'Fira Code';
+    font-size: 25px;
     letter-spacing: 2px;
 }
 
@@ -23,7 +23,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 6%;
     height: auto;
     max-width: 200px;
 }
@@ -53,15 +53,15 @@ a {
 }
 
 a:hover {
-    color: #000;
-    background: #fff;
+    color: #EBCD51;
+    background: #5A3E86;
 }
 
 .bottom-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 3%;
     height: auto;
-    max-width: 150px;
+    max-width: 180px;
 }
